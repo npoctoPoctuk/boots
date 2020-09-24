@@ -1,0 +1,74 @@
+html,
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+main {
+    margin: 20px;
+    display: flex;
+}
+
+article {
+    margin-right: 20px;
+    width: 300px;
+    outline: 2px solid #e2e2e2;
+    outline-offset: -2px;
+    box-shadow: 0 0 2px #aaa;
+}
+
+.image {
+    background-image: url(boots.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 205px;
+}
+
+.text {
+    padding: 30px 25px;
+}
+
+.head,
+.curr {
+    font-size: 20px;
+}
+
+.head {
+    color: #333;
+}
+
+.head,
+.num {
+    font-weight: 700;
+}
+
+.num,
+.curr {
+    display: inline-block;
+}
+
+.desc {
+    font-size: 15px;
+    color: #666;
+    padding-bottom: 20px;
+}
+
+.buy {
+    display: flex;
+    justify-content: space-between;
+}
+
+.num {
+    font-size: 35px;
+}
+
+.button_cart {
+    background: #4ed17b;
+    border-radius: 4px;
+    width: 50px;
+    height: 40px;
+    background-image: url(shopping-cart.png);
+    background-repeat: no-repeat;
+    background-position: 12px center;
+}
